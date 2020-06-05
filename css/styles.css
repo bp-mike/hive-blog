@@ -20,3 +20,23 @@ p{
     justify-content: flex-end;
    }
     */
+    
+.col-md-4, .col-md-8{
+    margin-top: 15px;
+}
+
+.recent_posts{
+    margin-top: 20px;
+}
+.recent_posts small{
+    padding-left: 15px;
+}
+
+.recent_posts a{
+    color: slategrey;
+    font-weight: bolder;
+}
+
+.recent_posts small{
+    color: slategrey;
+}
