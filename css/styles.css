@@ -15,7 +15,10 @@ p{
     color: purple;
     font-size: 30px;
 }
-
+.navbar-collapse{
+    justify-content: flex-end; 
+    margin-left: 50%;   
+}
 /* .navbar-collapse{
     justify-content: flex-end;
    }
@@ -40,3 +43,6 @@ p{
 .recent_posts small{
     color: slategrey;
 }
+ .slider{
+    margin-top: 15px;
+ }
