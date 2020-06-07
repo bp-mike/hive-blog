@@ -1,9 +1,12 @@
-h1{
-color: purple;
+body{
+    background-color:;
+}
+h1,h2,h3,h4,h5,h6{
+color: darkslategray;
 }
 
 p{
-    color: green;
+    color: gray;
 }
 
 .p-blue{
@@ -13,8 +16,11 @@ p{
 
 .p-purple{
     color: purple;
+   
     font-size: 30px;
 }
+
+
 .navbar-collapse{
     justify-content: flex-end; 
     margin-left: 50%;   
@@ -36,13 +42,72 @@ p{
 }
 
 .recent_posts a{
-    color: slategrey;
+    color: gray;
     font-weight: bolder;
 }
 
 .recent_posts small{
-    color: slategrey;
+    color: gray;
 }
  .slider{
     margin-top: 15px;
  }
+ .carousel-inner img{
+    height: 400px;
+ }
+ .carousel-inner p{
+     color: turquoise;
+     font-size: 24;
+ }
+
+ #most-viewed{
+     background-color: #343b40;
+     height: 50px;
+     padding-top: 5px;
+     margin-bottom: 10px;
+
+ }
+
+ .PageTitle{
+     padding-left: 300px;
+     background-color: #343b40;
+     margin-bottom: 10px;
+     margin-top: 30px;
+     height: 90px;
+     padding-top: 15px;
+    
+ }
+
+ .PageTitle h1{
+   color: wheat;
+   
+}
+
+ #most-viewed h3{
+    color: wheat;
+ }
+
+ footer{
+    background-color: darkolivegreen;
+    margin-top: 10px;
+    height: ;
+
+ }
+ .footer{
+    background: #343b40;
+  padding: 30px ;
+  color:gray;
+  font-size: 14px;
+  text-align: center;
+ }
+ .footer p{
+     color: gray;
+ }
+ .footer a{
+     color: turquoise;
+ }
+#about-us{
+    border-radius: 0px;
+}
+
+ 
