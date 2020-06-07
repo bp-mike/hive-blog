@@ -53,7 +53,7 @@ p{
     margin-top: 15px;
  }
  .carousel-inner img{
-    height: 400px;
+    height: 600px;
  }
  .carousel-inner p{
      color: turquoise;
@@ -83,6 +83,10 @@ p{
    
 }
 
+.Gallary{
+    margin-left: 30px;
+}
+
  #most-viewed h3{
     color: wheat;
  }
@@ -110,4 +114,10 @@ p{
     border-radius: 0px;
 }
 
- 
+ .card{
+     border: none;
+ }
+ .ReadBlog{
+     margin-top: 200px;
+     margin-left: 50px;
+ }
