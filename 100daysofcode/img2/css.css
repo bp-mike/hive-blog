@@ -1,0 +1,126 @@
+body{
+    background: turquoise;
+}
+.box{
+    position: relative;
+    background: none;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.head {
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: slategrey;
+    border-radius: 50%;
+}
+
+.head-copy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: slategrey;
+    border-radius: 50%;
+    z-index: 2;
+}
+.ear_left {
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    left: -24%;
+    top: 10;
+    background: slategrey;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.ear_right {
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    right:  -24%;
+    top: 10;
+    background: slategrey;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.inner_ear {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    background: darkslategrey;
+    border-radius: 50%;
+    /* z-index: 1; */ 
+}
+
+.hair_left {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left:  30%;
+    top: -10%;
+    background: slategrey;
+    -webkit-clip-path:polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.hair_right {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left:  50%;
+    top: -5%;
+    background: slategrey;
+    -webkit-clip-path:polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.eye_left {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 24%;
+    top: 25%;
+    background: white;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.eye_right {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    right: 24%;
+    top: 25%;
+    background: white;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.pupil {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 40%;
+    top: 40%;
+    background: black;
+    border-radius: 50%;
+}
+
+.nose {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    left: 36%;
+    top: 45%;
+    background: chocolate;
+    border-radius: 50px;
+    z-index: 3;
+}

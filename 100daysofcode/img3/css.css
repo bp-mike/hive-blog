@@ -1,0 +1,125 @@
+body{
+    background: darkgoldenrod;
+}
+
+.box{
+    position: relative;
+    width: 600px;
+    height: 450px;
+    background: none;
+    /* left: 26%; */
+    margin: auto;
+    margin-top: 8%;
+}
+
+.head{
+    position: absolute;
+    background: darkgoldenrod;
+    width: 60%;
+    height: 65%;
+    left: 21%;
+    top: 16%;
+}
+/* 
+.head_copy{
+    position: absolute;
+    background: darkgoldenrod;
+    width: 60%;
+    height: 65%;
+    left: 21%;
+    top: 16%;
+} */
+
+.eye_left{
+    position: absolute;
+    background: white;
+    left: 17%;
+    top: 13%;
+    width: 29%;
+    height: 33%;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    z-index: 1;
+}
+
+.pupil_left{
+    position: absolute;
+    background: black;
+    left: 35%;
+    top: 23%;
+    width: 60%;
+    height: 69%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.eye_right{
+    position: absolute;
+    background: white;
+    right: 17%;
+    top: 13%;
+    width: 29%;
+    height: 33%;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    z-index: 1;
+}
+
+.pupil_right{
+    position: absolute;
+    background: black;
+    right: 35%;
+    top: 6%;
+    width: 60%;
+    height: 69%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.white_spot{
+    position: absolute;
+    background: snow;
+    left: 53%;
+    top: 10%;
+    width: 40%;
+    height: 35%;
+    border-radius: 50%;
+    z-index: 3;    
+}
+
+.mouth{
+    position: absolute;
+    background: darkslategrey;
+    width: 69%;
+    height: 40%;
+    top: 54%;
+    left: 16%;
+    border-radius: 49%;
+    z-index: 2;
+}
+
+.tooth{
+    position: absolute;
+    background: white;
+    width: 20px;
+    height: 35px;
+    left: 23%;
+    top: 5%;
+    z-index: 3;
+    -webkit-clip-path:polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.toung{
+    position: absolute;
+    background: darkred;
+    width: 70%;
+    height: 40%;
+    left: 16%;
+    top: 59%;
+    border-radius: 49%;
+    z-index: 1;
+
+}
